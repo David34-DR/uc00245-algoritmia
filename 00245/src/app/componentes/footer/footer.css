@@ -1,4 +1,3 @@
-
 .site-footer {
     background: #333;
     color: #fff;
@@ -55,7 +54,7 @@
     color: rgba(93, 170, 241, 0.925);
     text-decoration: none;
   }
-
+ 
   a:hover {
     color: rgba(13, 102, 236, 0.726);
     text-decoration: overline;

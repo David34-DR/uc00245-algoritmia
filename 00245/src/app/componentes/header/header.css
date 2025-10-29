@@ -1,10 +1,9 @@
-
 /* header.component.scss */
 .header {
     width: 100%;
     min-height: max-content;
     background-color: #d1caca;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -16,7 +15,7 @@
     position: relative;
     width: 100%;
     background: linear-gradient(135deg, #6e8efb, #a777e3);
-    color: white;
+    color: white;    
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   .local-header-content {
@@ -36,7 +35,7 @@
     max-width: 800px;
     margin: 0 auto;
   }
-
+ 
   .nav-content {
     max-width: 1200px;
     min-height: 60px;
@@ -64,8 +63,8 @@
   .spacer {
     flex: 1;
   }
-
-  .logo-link {
+ 
+  .logo-link {    
     font-family: inherit; /* Herda a fonte do elemento pai */
     font-weight: 500; /* Peso médio para suavidade (não muito fino nem muito negrito) */
     font-size: 1rem; /* Tamanho padrão ou ajuste conforme necessário */
@@ -74,7 +73,7 @@
     color: #333; /* Cor suave (ajuste para o tom desejado) */
     text-decoration: none; /* Remove sublinhado padrão */
     transition: all 0.3s ease; /* Transição suave para hover/focus */
-
+ 
     /* Efeito suave ao interagir */
 &:hover, &:focus {
         color: #007bff; /* Cor azul suave no hover (pode ajustar) */
@@ -82,7 +81,7 @@
         text-underline-offset: 3px; /* Distância do sublinhado */
         text-decoration-thickness: 1px; /* Espessura fina do sublinhado */
     }
-
+ 
     /* Melhoria para acessibilidade no foco */
 &:focus {
         outline: 2px solid rgba(0, 123, 255, 0.3);
@@ -98,7 +97,7 @@
       align-items: center;
       align-content: center;
 
-
+ 
     }
     .local-header-content {
       max-height: 190px;
